@@ -27,6 +27,10 @@ p {
     background-color: #D1DED7;
 }
 
+.colored-pink {
+    background-color: #DBBAB6;
+}
+
 
 /* Navigation */
 
@@ -104,6 +108,25 @@ p {
 
 .about-text {
     padding-top: 5%;
+}
+
+/* Form */
+
+#contact-title {
+    padding-top: 4%;
+    margin-bottom: 0;
+}
+
+.form-container {
+    padding: 3% 15%;
+    display: inline-flex;
+    justify-content: flex-start;
+
+}
+
+.form-control {
+   margin: 1% 0;
+   
 }
 
 /* Footer */

@@ -11,57 +11,84 @@
     <link rel="stylesheet" type="text/css"  href="style.css">
 </head>
 <body>
-    <section class="container">
-    <!-- Navigation -->
-    <nav id=navbar class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="logo" src="images/full_no_background.png" alt="Susan Cody Logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link active link" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                About
-                </a>
-                <ul class="dropdown-menu link">
-                    <li><a class="dropdown-item" href="#">Biography</a></li>
-                    <li><a class="dropdown-item" href="#">Contact</a></li>
+    <div class="colored-pink">
+        <section class="container">
+        <!-- Navigation -->
+        <nav id=navbar class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="logo" src="images/full_no_background.png" alt="Susan Cody Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                    </a>
+                    <ul class="dropdown-menu link">
+                        <li><a class="dropdown-item" href="#">Biography</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown link">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Books
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Almost Paradise</a></li>
+                        <li><a class="dropdown-item" href="#">This Time Tomorrow</a></li>
+                        <li><a class="dropdown-item" href="#">A Lotus-Covered Door</a></li>
+                        <li><a class="dropdown-item" href="#">Bittersweet Betrayal</a></li>
+                        <li><a class="dropdown-item" href="#">Tougher Than Diamonds</a></li>
+                        <li><a class="dropdown-item" href="#">Blame it on the Ghost</a></li>
+                    </ul>
+                </li>
                 </ul>
-            </li>
-            <li class="nav-item dropdown link">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Books
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Almost Paradise</a></li>
-                    <li><a class="dropdown-item" href="#">This Time Tomorrow</a></li>
-                    <li><a class="dropdown-item" href="#">A Lotus-Covered Door</a></li>
-                    <li><a class="dropdown-item" href="#">Bittersweet Betrayal</a></li>
-                    <li><a class="dropdown-item" href="#">Tougher Than Diamonds</a></li>
-                    <li><a class="dropdown-item" href="#">Blame it on the Ghost</a></li>
-                </ul>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
+            </div>
+            </div>
+        </nav>
 
-    <!-- Biography -->
-    <div class="row title-section">
-        <div class="col-lg-6 title-image">
-            <img src="images/Writing with Coffee.png" alt="Writing while enjoying some coffee.">
+        <!-- Biography -->
+        <div class="row title-section">
+            <div class="col-lg-6 title-image">
+                <img src="images/Writing with Coffee.png" alt="Writing while enjoying some coffee.">
+            </div>
+            <div class="col-lg-6 title-text">
+                <h1 class="bio">Susan Cody</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
         </div>
-        <div class="col-lg-6 title-text">
-            <h1 class="bio">Susan Cody</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-        </div>
+        </section>
     </div>
     <!-- Contact -->
+    <div class="container" id="contact-title">
+        <h2> General Inquiries</h2><br>
+    </div>
+    <section class="container form-container">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+            </div>
+            <div class="col-12">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email" required>
+            </div>
+            <div class="col-12">
+                <input type="text" class="form-control" placeholder="Subject" aria-label="Subject" required>
+            </div>
+            <div class="col-12">
+                <textarea type="text" class="form-control" placeholder="Message" aria-label="Message" rows="4" cols="50" required></textarea>
+            </div>
+            <div class="col-12">
+                <button type="Send Message" class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
     </section>
     <!-- Footer -->
     <section class="footer">
