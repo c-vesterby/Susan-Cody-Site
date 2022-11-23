@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    background-color: #FAFCFB;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+p {
+    line-height: 2;
+}
+
+/* Container */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+#navbar .container-fluid{
+   padding: 1%;
+}
+
+.reviews-colored-section {
+    background-color: #D1DED7;
+}
+
+
+/* Navigation */
+
+.logo {
+    width: 18rem;
+    height: 10rem;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.nav-link {
+    padding-left: 100px;
+}
+
+/* Navigation Hover */
+
+.link:hover {
+    color: #918887;
+}
+
+/* Title */
+
+.title-section {
+    padding-bottom: 5%;
+}
+
+.title-text {
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 7%;
+}
+
+.title-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.title-image {
+    padding-left: 5%;
+}
+
+.pre-order {
+    background-color: #DBBAB6;
+}
+
+.pre-order:hover {
+    background-color: #918887;
+}
+
+/* Book Reviews */
+
+#reviews {
+    padding: 7% 15%;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.book-review-image {
+    width: 10%;
+    margin: 20px;
+}
+
+.review-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* About on Main Page */
+
+.about-main-page {
+    text-align: left;
+}
+
+.about-text {
+    padding-top: 5%;
+}
