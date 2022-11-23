@@ -105,3 +105,13 @@ p {
 .about-text {
     padding-top: 5%;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #333333;
+    color: #FAFCFB;
+    text-align: center;
+    padding: 5rem;
+    height: 10rem;
+}
